@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: rgb(240, 177, 121);
+}
+html {
+  min-height: 100%;
+  height: 100%;
+  width: auto;
+  /*background image sets the image as the background image for a given element. It is best to use this class on the body element as all of the info should be inside the body element*/
+  background-image: url(imgs/JoshuaHairston.jpg);
+  /*background-repeat can make it to where the image can be repeated horizontally and vertically, or not at all.*/
+  background-repeat: no-repeat;
+
+  /*this centers the image*/
+  background-position: center;
+  /* background-size scales the image (while preserving its ratio) to the smallest possible size to fill the container (that is: both its height and width completely cover the container), leaving no empty space.*/
+  background-size: cover;
+
+  /*this could fix the issue where if there is too much content and the user has to scroll then the picture would still be there as it wouldn't move*/
+  background-attachment: fixed;
+}
+ul {
+  font-size: 8rem;
+  text-align: center;
+}
+
+li {
+  /*makes the list items all line up horizontally*/
+  display: inline-block;
+
+  padding-right: 1em;
+}
+
+.center-frontpage-title {
+  font-size: 10rem;
+  margin: 3em;
+  padding: 2em;
+  text-align: center;
+}
+.center-frontpage-desc {
+  font-size: 6rem;
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+}
