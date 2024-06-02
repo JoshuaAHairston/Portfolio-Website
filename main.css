@@ -29,6 +29,7 @@ html {
   background-attachment: fixed;
 }
 ul {
+  background-color: rgb(82, 90, 90);
   font-size: 3.6rem;
   padding-top: 1.3em;
   padding-bottom: 1.5em;
@@ -39,7 +40,7 @@ ul {
 li {
   /*makes the list items all line up horizontally*/
   display: inline-block;
-  padding-right: 5em;
+  padding-right: 10em;
   letter-spacing: 7px;
   text-transform: uppercase;
 }
@@ -52,15 +53,21 @@ a:visited {
 
 a:hover,
 a:focus {
-  color: rgb(210, 255, 255);
+  color: papayawhip;
 }
 
 a:active {
+  color: papayawhip;
 }
-
+/*TODO: put most of the styling we put on this title on the front-page desc and figure out what we want to do for the styling of my name*/
 .center-frontpage-title {
+  color: papayawhip;
   font-size: 10rem;
+  width: 50%;
   margin: 4em;
+  border: 5px white solid;
+  border-radius: 50px;
+  background-color: black;
 
   text-align: center;
 }
