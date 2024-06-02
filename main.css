@@ -1,17 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  color: rgb(240, 177, 121);
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  color: #fff;
+  font-weight: bold;
 }
 html {
   min-height: 100%;
   height: 100%;
   width: auto;
-  /*background image sets the image as the background image for a given element. It is best to use this class on the body element as all of the info should be inside the body element*/
-  background-image: url(imgs/JoshuaHairston.jpg);
+  /*background image sets the image as the background image for a given element. It is best to use this class on the html element as all of the info should be inside the body element*/
+  background-image: url(imgs/BoothTheatre.JPG);
   /*background-repeat can make it to where the image can be repeated horizontally and vertically, or not at all.*/
   background-repeat: no-repeat;
 
@@ -24,21 +29,39 @@ html {
   background-attachment: fixed;
 }
 ul {
-  font-size: 8rem;
+  font-size: 3.6rem;
+  padding-top: 1.3em;
+  padding-bottom: 1.5em;
   text-align: center;
+  border-bottom: 7px #fff solid;
 }
 
 li {
   /*makes the list items all line up horizontally*/
   display: inline-block;
+  padding-right: 5em;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: #fff;
+}
 
-  padding-right: 1em;
+a:hover,
+a:focus {
+  color: rgb(210, 255, 255);
+}
+
+a:active {
 }
 
 .center-frontpage-title {
   font-size: 10rem;
-  margin: 3em;
-  padding: 2em;
+  margin: 4em;
+
   text-align: center;
 }
 .center-frontpage-desc {
