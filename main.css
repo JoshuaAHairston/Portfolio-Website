@@ -10,6 +10,7 @@
   width: 100%;
   /*why?*/
   height: 100vh;
+  /*what does this do*/
   background-image: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
   /*figure out why this stuff works*/
   position: relative;
@@ -101,4 +102,59 @@ nav ul li a:hover {
     width: auto;
     height: 100%;
   }
+}
+
+.container {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.contained {
+  text-align: center;
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+
+.contained h2 {
+  border: 2px solid white;
+  background-color: black;
+  border-radius: 40px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  color: white;
+  font-size: 3rem;
+  /* margin-left: 5rem;
+  margin-right: 5rem; */
+}
+
+.newmaintop {
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  height: 50vh;
+  /*why?*/
+  /*what does this do*/
+  /* background-image: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3)); */
+  /*figure out why this stuff works*/
+  position: relative;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newmainbottom {
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  height: 50vh;
+  /*why?*/
+  /*what does this do*/
+  /* background-image: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3)); */
+  /*figure out why this stuff works*/
+}
+
+.contact-background {
+  background-image: url(imgs/BoothTheatre.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
